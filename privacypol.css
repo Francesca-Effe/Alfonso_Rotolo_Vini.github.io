@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color:#b33a1e;
+    --secondary-color: #F5F5DC;
+    --third-color: #D4AF37;
+
+}
+
+body{
+    background: url(./images/view_White\ filter_UP.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.privacy-container{
+    background-color:transparent;
+}
+
+.privacy-content{
+    background-color:#d6dff3;
+    opacity: 0.9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 1.2rem;
+    margin: 15px 60px;
+    padding: 20px 30px;
+}
+
+.privacy-content h4{
+    text-align: center;
+    line-height: 2rem;
+    opacity: 0.8;
+   
+}
+
+.privacy-content ol li{
+    color: var(--primary-color);
+    line-height: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.privacy-content p{
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+.privacy-content a{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.privacy-content a:hover{
+    text-decoration: underline;
+}
+
+
+/* copyright */
+
+.copyright {
+    color: var(--primary-color;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* utility classes */
+
+.txt-lg-lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.txt-sm-lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.txt-xl-lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.txt-lg-garamond {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.txt-xl-garamond {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.txt-xxl-garamond {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+/* media query */
+
+@media (max-width:670px){
+.privacy-content p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    }
+}
