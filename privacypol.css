@@ -13,8 +13,9 @@
 }
 
 body{
-    background: url(./images/view_White\ filter_UP.jpg) no-repeat;
+    background: url(./images/view_White\ filter_UP.jpg) no-repeat center center;
     background-size: cover;
+    height: 100vh;
 }
 
 

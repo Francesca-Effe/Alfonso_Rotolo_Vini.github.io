@@ -581,23 +581,34 @@ h2{
     .hero-content {
             background: url(./images/Landing_Page_Section2_Mobile_LATO.jpg) no-repeat center center;
             background-size: cover;
-            height: 50vh;
+            height: 83vh;
             
         }
 
         .img_background{
             justify-content: space-around;
+            visibility: hidden;
         }
         .img_background .grape, .img_background .grape-leaf{
             width: 120px;
+            visibility: hidden;
         }
         .footer-content {
             flex-direction: column;
             padding: 20px;
        }
        .social-media a{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
        }
+
+        .social-media,
+        .contacts {
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0 15px;
+    
+           }
          
       .slider-nav{
         visibility: hidden;
@@ -619,14 +630,30 @@ h2{
             display: block;
         }
     
-        .navbar .main-menu {
+    .navbar .main-menu {
             display: none;
+        }
+
+    .txt-xxl-garamond {
+            font-family: "EB Garamond", serif;
+            font-style: normal;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+    
+    .txt-xl-lato {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.3rem;
+            color: var(--primary-color);
         }
 
     .hero-content {
             background: url(./images/Landing_Page_Section2_Mobile2.jpg) no-repeat center center;
             background-size: cover;
             min-width: 100%;
+            height: 45vh;
            
            
         }
@@ -645,12 +672,12 @@ h2{
         }
 
         .img_background .grape{
-            visibility: none;
+            visibility: hidden;
                        
         }
 
         .img_background .grape-leaf{
-            visibility: none;
+            visibility: hidden;
         }
 
         .footer-container{
