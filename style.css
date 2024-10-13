@@ -625,44 +625,61 @@ h2{
 
     .hero-content {
             background: url(./images/Landing_Page_Section2_Mobile2.jpg) no-repeat center center;
-            background-size: contain;
+            background-size: cover;
+            min-width: 100%;
+           
            
         }
 
-                .bottom-section {
-                        width: 100%;
-                        height: auto;
-                    }
+        .bottom-section {
+            width: 100%;
+            height: auto;
+        }
 
-                    .img_background{
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                    }
+        .img_background{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                        
+        }
 
-                    .img_background .grape, .img_background .grape-leaf{
-                        width: 100px;
-                        margin: 10px 0;
-                    }
+        .img_background .grape{
+            width: 100px;
+            visibility: hidden;
+                       
+        }
 
-                 .footer-content {
-                    flex-direction: column;
-                    padding: 15px;
-                 }
+        .img_background .grape-leaf{
+            width: 200px;
+            margin-top: 8px;
+        }
+
+        .footer-content {
+            flex-direction: column;
+            padding: 15px;
+            align-items: center;
+            overflow: hidden;
+        }
                  
-                 .social-media a{
-                    font-size: 1rem;
-                    margin: 10px;
-                 }
+        .social-media a{
+            font-size: 1rem;
+            margin: 10px;
+        }
 
                  
 
-                 .body_azienda {
-                    margin: 0;
-                     padding: 0;
-                     box-sizing: border-box;
-                    height: 100vh;
-                                }
+        .body_azienda {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+        }
+
+        .azienda-content{
+           padding: 10px 15px;
+           margin: 10px 40px;
+        }
+            
 
                 
 }

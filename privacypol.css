@@ -20,6 +20,7 @@ body{
 
 .privacy-container{
     background-color:transparent;
+    overflow: hidden;
 }
 
 .privacy-content{
@@ -31,9 +32,12 @@ body{
     line-height: 1.2rem;
     margin: 15px 60px;
     padding: 20px 30px;
+    overflow: hidden;
 }
 
 .privacy-content h4{
+    font-family: "EB Garamond", serif;
+    font-style: normal;
     text-align: center;
     line-height: 2rem;
     opacity: 0.8;
@@ -59,6 +63,7 @@ body{
 .privacy-content a{
     color: var(--primary-color);
     cursor: pointer;
+    overflow: hidden;
 }
 
 .privacy-content a:hover{
@@ -124,6 +129,8 @@ body{
 
 /* media query */
 
+
+
 @media (max-width:670px){
 .privacy-content p {
     font-size: 16px;
@@ -131,4 +138,46 @@ body{
     text-align: center;
     overflow: hidden;
     }
+}
+
+@media (max-width: 480px) and (min-width:320px){
+
+    
+    .privacy-content {
+            margin: 0 auto;
+            padding: 15px 10px;
+            width: 90%;
+            box-sizing: border-box;
+            overflow: hidden;
+
+        }
+
+    .privacy-content h4{
+        font-family: "EB Garamond", serif;
+        font-style: normal;
+        color: #b33a1e;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        overflow: hidden;
+    }
+    
+    .privacy-content p,
+    .privacy-content ol li{
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+
+    .privacy-content a{
+        font-size: 0.9rem;
+    }
+
+        .txt-lg-garamond{
+            font-size: 1rem;
+        }
+
+        .txt-sm-lato{
+            font-size: 0.9rem;
+            line-height: 1rem;
+        }
+
 }
