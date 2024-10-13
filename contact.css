@@ -206,21 +206,48 @@ body {
 }
 
 @media (max-width:480px) and (min-width: 320px){
+
+    .contatti-social-box{
+        height: auto;
+        padding: 20px 10px;
+    }
+
     .container2-contact{
         flex-direction: column;
-        padding: 15px;
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .map, .contatti-info, .socialmedia-icons{
+        width: 100%;
+        padding: 0;
     }
 
     .map iframe{
-        height: 200px;
-        width: 100%;
+        max-width: 100%;
+        height: 250px;
+        border-radius: 15px;
     }
 
-    .contatti-info ul li a {
-        font-size: 1.2rem;
+    .contatti-info ul li a{
+        font-size: 1rem;
+        padding: 10px 0;
     }
 
+    .socialmedia-icons ul{
+        gap: 10px;
+    }
 
+    .socialmedia-icons i{
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .copyright{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
          
 }
 

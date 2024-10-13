@@ -640,33 +640,44 @@ h2{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            visibility: hidden;
                         
         }
 
         .img_background .grape{
-            width: 100px;
-            visibility: hidden;
+            visibility: none;
                        
         }
 
         .img_background .grape-leaf{
-            width: 200px;
-            margin-top: 8px;
+            visibility: none;
+        }
+
+        .footer-container{
+            padding: 15px;
         }
 
         .footer-content {
             flex-direction: column;
-            padding: 15px;
+            justify-content: center;
             align-items: center;
             overflow: hidden;
         }
                  
         .social-media a{
-            font-size: 1rem;
+            font-size: 1.5rem;
             margin: 10px;
         }
 
-                 
+         
+        .social-media,
+        .contacts {
+               align-items: center;
+               text-align: center;
+               margin: 0 auto;
+               padding: 0 15px;
+        
+                }
 
         .body_azienda {
             margin: 0;
@@ -677,7 +688,7 @@ h2{
 
         .azienda-content{
            padding: 10px 15px;
-           margin: 10px 40px;
+           margin: 10px 20px;
         }
             
 
