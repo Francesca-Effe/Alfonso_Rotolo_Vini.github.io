@@ -30,17 +30,17 @@ body{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
     border-radius: 25px;
     text-align: center;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     margin: 15px 60px;
     padding: 20px 30px;
     overflow: hidden;
 }
 
 .privacy-content h4{
-    font-family: "EB Garamond", serif;
+    font-family: "Lato", serif;
     font-style: normal;
     text-align: center;
-    line-height: 2rem;
+    line-height: 1.8rem;
     opacity: 0.8;
    
 }
@@ -54,10 +54,10 @@ body{
 }
 
 .privacy-content p{
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     text-align: center;
-    margin: 10px 20px;
-    padding: 10px 20px;
+    margin: 20px 20px;
+    padding: 20px 20px;
     opacity: 0.8;
 }
 
@@ -103,30 +103,11 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
+    height: 30px;
 }
 
-.txt-lg-garamond {
-    font-family: "EB Garamond", serif;
-    font-style: normal;
-    font-size: 2rem;
-    color: var(--primary-color);
-}
-
-.txt-xl-garamond {
-    font-family: "EB Garamond", serif;
-    font-style: normal;
-    font-size: 2.5rem;
-    color: var(--primary-color);
-}
-
-.txt-xxl-garamond {
-    font-family: "EB Garamond", serif;
-    font-style: normal;
-    font-size: 3rem;
-    color: var(--primary-color);
-}
 
 /* media query */
 
@@ -154,7 +135,7 @@ body{
         }
 
     .privacy-content h4{
-        font-family: "EB Garamond", serif;
+        font-family: "Lato", serif;
         font-style: normal;
         color: #b33a1e;
         font-size: 1rem;
@@ -172,9 +153,6 @@ body{
         font-size: 0.9rem;
     }
 
-        .txt-lg-garamond{
-            font-size: 1rem;
-        }
 
         .txt-sm-lato{
             font-size: 0.9rem;
