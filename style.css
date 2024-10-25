@@ -47,7 +47,7 @@ html, body{
 .container-background{
     position: relative;
     width: 100%;
-    height: 77vh;
+    height: 72vh;
     background: url(images/view_White\ filter_UP.jpg) no-repeat center center;
     background-size: cover;
     z-index: 7;
@@ -79,6 +79,7 @@ html, body{
     height: auto;
     overflow: hidden;
     width: 100%;
+   
 }
 
 /* hero */
@@ -423,6 +424,18 @@ h2{
 
 /* media query */
 
+@media (min-width:1441px) and (max-width:2560px){
+    .container-background{
+        height: 65vh;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+    .container-background{
+        height: 68vh;
+    }
+}
+
 @media  (min-width:769px) and (max-width:1024px) {
     .landing-page{
         margin-bottom: 90px;
@@ -446,6 +459,10 @@ h2{
     .slider-nav a{
         width: 0.25rem;
         height: 0.25rem;
+    }
+
+    .container-background{
+        height: 70vh;
     }
 
     .azienda-content p{
