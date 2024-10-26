@@ -466,13 +466,13 @@ h2{
     }
 
     .azienda-content p{
-        line-height: 1rem;
+        line-height: 1.5rem;
         font-size: 1rem;
      }
 
-     .azienda-content{
+    /*  .azienda-content{
        max-height: fit-content;
-     }
+     } */
 
      .copyright{
         padding: 10px 0;
@@ -507,7 +507,7 @@ h2{
                 
 }
 
-@media  (max-width: 480px)  and (min-width:320px){
+@media  (max-width: 480px)  and (min-width:321px){
 
     .navbar .hamburger-button {
             display: block;
